@@ -29,7 +29,7 @@ dst_path = r"/home/pi/brand_pisignage_portrait.mp4"
 shutil.copy(src_path, dst_path)
 os.remove("/home/pi/update_portrait.mp4")
 src_path = directory + "/update_portrait.mp4"
-dst_path = r"/home/pi/update_landscape.mp4"
+dst_path = r"/home/pi/update_portrait.mp4"
 shutil.copy(src_path, dst_path)
 os.remove("/home/pi/update.png")
 src_path = directory + "/update.png"
